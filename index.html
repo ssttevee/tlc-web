@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Team Little Crowz</title>
+    <link href='http://fonts.googleapis.com/css?family=Dosis:300,400,500' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css" />
+    <script type="application/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="application/javascript" src="riotgames-lib.js"></script>
+    <script type="application/javascript" src="_main.js"></script>
+</head>
+<body>
+    <div class="section" name="logo">
+        <div class="logo">
+            <div class="vector"></div>
+            <div class="title">TEAM LITTLE CROWZ</div>
+        </div>
+        <div class="background"></div>
+    </div>
+    <div class="section" name="roster">
+        <table class="content">
+            <tr>
+                <td style="width: 210px;">
+                    <ul class="players">
+                        <li><label for="bluk">AkuNoTenshi</label></li>
+                        <li><label for="bchow">Azncow</label></li>
+                        <li><label for="nchoy">HeartlessWind</label></li>
+                        <li><label for="jtran">imadognow</label></li>
+                        <li><label for="fli">LifeLongPromise</label></li>
+                        <li><label for="slam" class="selected">NiceGüy</label></li>
+                        <li><label for="ksan">RedApplez</label></li>
+                    </ul>
+                </td>
+                <td style="vertical-align: top;" class="bio">
+                    <input id="bluk" type="radio" name="player">
+                    <div></div>
+                    <input id="bchow" type="radio" name="player">
+                    <div></div>
+                    <input id="nchoy" type="radio" name="player">
+                    <div></div>
+                    <input id="jtran" type="radio" name="player">
+                    <div></div>
+                    <input id="fli" type="radio" name="player">
+                    <div></div>
+                    <input id="slam" type="radio" name="player" checked>
+                    <div>
+                        <div>Bacon ipsum dolor amet kevin sausage ribeye, shankle ham hock beef ribs tongue tri-tip shoulder jowl alcatra. Porchetta strip steak tail prosciutto pancetta, brisket salami andouille pork belly tongue jowl capicola. Ground round cow porchetta ham hock short ribs bacon turkey hamburger turducken tenderloin. Kielbasa frankfurter fatback chuck brisket corned beef. Leberkas drumstick biltong chuck pork jowl strip steak tail ham flank. Kielbasa meatloaf shankle, strip steak alcatra shank chuck spare ribs pastrami rump pork loin prosciutto. Bacon jerky shoulder, jowl drumstick tenderloin chicken turkey tongue.<br><br>Ball tip kielbasa shoulder beef ribs doner, filet mignon frankfurter chuck. Biltong t-bone pig, bresaola sirloin kielbasa picanha ball tip jowl bacon beef. Pork loin flank shankle shoulder, pancetta turkey beef ribs beef jerky picanha meatball ham turducken cow hamburger. Turducken hamburger meatball turkey, jerky bresaola leberkas prosciutto alcatra pig picanha. Pastrami bacon flank kielbasa salami fatback pancetta beef ribs pork chop doner short ribs cow chicken. Boudin cow prosciutto tenderloin shankle kielbasa swine picanha shoulder pork belly pastrami capicola porchetta ribeye fatback. Ground round flank tenderloin tongue.<br><br>Jerky flank fatback cupim, pork loin venison filet mignon biltong brisket chuck tongue ham shoulder. Porchetta tail beef ribs brisket meatball, strip steak cupim bacon flank. Pastrami swine bresaola beef, corned beef fatback meatloaf picanha flank. Beef t-bone short loin landjaeger. Drumstick bresaola venison, tenderloin doner porchetta turducken rump short ribs chuck kielbasa prosciutto capicola andouille. Landjaeger fatback ham hock flank sausage pastrami andouille ham bresaola.</div>
+                    </div>
+                    <input id="ksan" type="radio" name="player">
+                    <div></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="section" name="photos">
+        a photo gallery here
+        <div class="background"></div>
+    </div>
+    <div class="section" name="statistics">
+        some statistics or records stuff....
+    </div>
+    <div class="section" name="streams">
+        <div class="content empty">
+        </div>
+    </div>
+    <ul class="nav home">
+        <li><a href="#" onclick="section=2;scroll();return false;">ROSTER</a></li>
+        <li><a href="#" onclick="section=3;scroll();return false;">PHOTOS</a></li>
+        <li class="home" onclick="section=1;scroll();return false;"></li>
+        <li><a href="#" onclick="section=4;scroll();return false;">RECENT</a></li>
+        <li><a href="#" onclick="section=5;scroll();return false;">STREAMS</a></li>
+    </ul>
+</body>
+</html>
